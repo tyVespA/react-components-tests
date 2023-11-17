@@ -1,4 +1,34 @@
 :root {
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  font-family: ProductSansRegular;
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: ProductSansBold;
+}
+
+em {
+  font-family: ProductSansItalic;
+}
+
+@font-face {
+  font-family: "ProductSansRegular";
+  src: local("ProductSansRegular"),
+    url("./fonts/Product-Sans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ProductSansBold";
+  src: local("ProductSansBold"),
+    url("./fonts/Product-Sans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ProductSansItalic";
+  src: local("ProductSansItalic"),
+    url("./fonts/Product-Sans-Italic.ttf") format("truetype");
 }
