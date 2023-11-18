@@ -49,15 +49,13 @@ h6 {
   font-size: 1.2rem;
 }
 
-h1,
-h2,
-h3 {
-  /* font-family: ProductSansBold; */
-  line-height: 1;
+h1 {
+  font-family: ProductSansBold;
 }
 
-em {
-  font-family: ProductSansItalic;
+h2,
+h3 {
+  line-height: 1;
 }
 
 a {
