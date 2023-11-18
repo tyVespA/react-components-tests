@@ -1,6 +1,50 @@
+/* RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* END RESET */
+
 :root {
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1f1f1f;
   font-family: ProductSansRegular;
   font-size: 1.2rem;
 }
@@ -8,11 +52,16 @@
 h1,
 h2,
 h3 {
-  font-family: ProductSansBold;
+  /* font-family: ProductSansBold; */
+  line-height: 1;
 }
 
 em {
   font-family: ProductSansItalic;
+}
+
+a {
+  cursor: pointer;
 }
 
 @font-face {
